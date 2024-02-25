@@ -6,6 +6,7 @@ import { MatchResults } from '@stencil-community/router';
   styleUrl: 'app-profile.css',
   shadow: true,
 })
+
 export class AppProfile {
   @Prop() match: MatchResults;
 
